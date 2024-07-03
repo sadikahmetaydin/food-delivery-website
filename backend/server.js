@@ -1,9 +1,14 @@
+// Package Express Connection
 import express from 'express';
+// Package Cors Connection
 import cors from 'cors';
+// .dotenv Connection
+import 'dotenv/config';
 // mongoDB Connection
 import { connectDB } from './config/db.js';
 // Router Connection
 import foodRouter from './routes/foodRoute.js';
+import userRouter from './routes/userRoute.js';
 
 // app config
 const app = express();
@@ -19,6 +24,7 @@ connectDB();
 // api endpoints
 app.use('/api/food', foodRouter);
 app.use('/images', express.static('uploads'));
+app.use('/api/user', userRouter);
 
 app.get('/', (req, res) => {
   res.send('API Working');
