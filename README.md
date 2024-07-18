@@ -25,7 +25,7 @@ To run the project in your local environment, follow these steps: ⬇️
 
 Create a .env file to store your credentials:
 
-- `MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/blog`
+- `MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/food-del`
 
 ## 3️⃣ Download npm packages and Vite tool:
 
