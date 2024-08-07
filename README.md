@@ -3,7 +3,7 @@ A food delivery website build with mongodb, express, reactjs and nodejs.
 
 # 💡About this project 
 
-I'll updating soon...
+I'll updating soon... ... ...
 
 ## ⚡Technologies
 * `MONGODB`
